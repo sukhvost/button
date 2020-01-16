@@ -16,6 +16,7 @@ button {
     border: 1px solid green;
     cursor: pointer;
     animation: rotate 1.5s infinite ease-in-out;
+    outline: none;
 }
 
 .circle {
