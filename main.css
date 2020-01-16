@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    font-size: 6rem;
+}
+
+button {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: green;
+    border: 1px solid green;
+    cursor: pointer;
+    animation: rotate 1.5s infinite ease-in-out;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin-top: 200px;
+    animation: circle 3s infinite ease-out;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+        box-shadow: 0 0 10px 10px green;
+    }
+    20% {
+        transform: rotate(45deg) scale(1.2);
+        box-shadow: 0 0 30px 20px green;
+    }
+    to {
+        transform: rotate(0deg);
+        box-shadow: 0 0 30px green;
+    }
+}
+
+@keyframes circle {
+    20% {
+        transform: scale(1.2);
+        width: 24rem;
+        height: 24rem;
+        border: 8px solid green;
+        box-shadow: 0 0 30px 10px green;
+    }
+    to {
+        border: 1px solid green;
+    }
+}
