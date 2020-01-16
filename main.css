@@ -5,11 +5,12 @@ body {
 
 .fa {
     font-size: 6rem;
+    color: #ffffff;
 }
 
 button {
-    width: 19rem;
-    height: 19rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     background: green;
     border: 1px solid green;
@@ -21,8 +22,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 19rem;
-    height: 19rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     border: 1px solid green;
     margin-top: 200px;
@@ -35,7 +36,7 @@ button {
         box-shadow: 0 0 10px 10px green;
     }
     20% {
-        transform: rotate(45deg) scale(1.2);
+        transform: rotate(45deg) scale(1.1);
         box-shadow: 0 0 30px 20px green;
     }
     to {
@@ -47,8 +48,8 @@ button {
 @keyframes circle {
     20% {
         transform: scale(1.2);
-        width: 19rem;
-        height: 19rem;
+        width: 15rem;
+        height: 15rem;
         border: 8px solid green;
         box-shadow: 0 0 30px 10px green;
     }
